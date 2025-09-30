@@ -1,0 +1,4 @@
+body{font-family:system-ui,Arial,Helvetica,sans-serif;background:#fbfbfb;color:#111}
+input,select,textarea,button{display:block;width:100%;padding:8px;margin-top:6px;border:1px solid #ddd;border-radius:6px}
+button{background:#0b74ff;color:white;border:none}
+label{font-weight:600}
