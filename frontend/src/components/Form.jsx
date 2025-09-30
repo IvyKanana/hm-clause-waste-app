@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 
-const COMPANY = 'H.M. CLAUSE'
+const COMPANY = 'H.M. CLAhttps://github.com/IvyKanana/hm-clause-waste-app/tree/mainUSE'
 const LOCATION = 'Nanyuki, Turaco Farms'
 const ADDRESS = '854-1040'
 const VEHICLE = 'KBJ 030H'
@@ -48,7 +48,7 @@ export default function Form(){
         notes,
         polypac_email: POLYPAC_EMAIL
       }
-      const res = await axios.post('/api/submit', payload)
+      const res = await axios.post('https://hm-clause-backend-ec1x.onrender.com/api/submit', payload)
       setMessage('Submitted! PDF sent to both emails.')
       setSubmitting(false)
     }catch(err){
